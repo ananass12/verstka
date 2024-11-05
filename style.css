@@ -1,0 +1,11 @@
+.flexbox-container {
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   align-items: stretch;
+   justify-content: flex-start;
+   max-width: 595px;
+   padding: 15px 20px;
+   background: white;
+}
