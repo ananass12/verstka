@@ -9,3 +9,142 @@
    padding: 15px 20px;
    background: white;
 }
+
+
+.profile-card-container {  
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: row;
+   gap: 20px;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+
+.profile-image-container {
+   box-sizing: border-box;
+   display: block;
+   width: 124px;
+   max-width: initial;
+   height: 124px;
+   border: none;
+   border-radius: 12px;
+   object-fit: cover;
+}
+
+.brand-card-container {
+   box-sizing: border-box;
+   flex: 0 0 auto;
+   max-width: 124px;
+   padding: 12px 11px;
+   background: #f0f0f0;
+   border-radius: 12px;
+}
+
+.language-list-container1 {
+   box-sizing: border-box;
+   flex: 0 0 auto;
+   padding: 12px 11px 22px;
+   background: #f0f0f0;
+   border-radius: 12px;
+}
+
+.bold-text-heading {
+   padding: 0;
+   margin: 0;
+   font: 600 14px/14.5px Poppins, sans-serif;
+   color: black;
+}
+
+.brand-logo-designer-style {
+   box-sizing: border-box;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+   margin-top: 6px;
+   font: 500 12px/18px Poppins, sans-serif;
+   color: #5c5c5c;
+   text-align: left;
+}
+
+.language-title-text-style {
+   padding: 0;
+   margin: 0;
+   font: 500 14px Poppins, sans-serif;
+   color: black;
+}
+
+.language-preference-container {
+   flex: 0 0 auto;
+   padding-bottom: 3px;
+}
+
+.preference-text-display-style {
+   padding: 0;
+   margin: 0;
+   font: 500 10px/10.5px Poppins, sans-serif;
+   color: black;
+   white-space: pre-wrap;
+}
+
+.language-preference-style {
+   margin-top: 10px;
+}
+
+.preference-text-display-style:first-child {
+   margin-top: 0px;
+}
+
+
+.education-card {
+   box-sizing: border-box;
+   flex: 0 0 auto;
+   padding: 12px 11px;
+   background: #f0f0f0;
+   border-radius: 12px;
+}
+
+.green-box-with-content {
+   box-sizing: border-box;
+   width: 100%;
+   padding: 8px 7px;
+   background: #28d979;
+   border-radius: 10px;
+}
+
+.art-school-info-container {
+   box-sizing: border-box;
+   width: 100%;
+   padding: 8px 7px;
+   margin-top: 12px;
+   background: white;
+   border-radius: 10px;
+}
+
+.card-container {
+   box-sizing: border-box;
+   display: flex;
+   flex: 0 0 auto;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: flex-start;
+   width: 116px;
+   padding-top: 8px;
+   padding-right: 18px;
+   padding-left: 7px;
+   margin-left: 16px;
+   background: white;
+   border-radius: 10px;
+}
+
+.interest-panel {
+   box-sizing: border-box;
+   padding: 12px 11px;
+   background: #f0f0f0;
+   border-radius: 12px;
+}
+
+
+
+
+
+
